@@ -1184,8 +1184,8 @@ int main(void)
 	_printf("-##-20-0#-20.40.5d:%-##-20-0#-20.40.5d\n", INT_MAX);
 	printf("In the middle %6c of a sentence.\n", 'H');
 	_printf("In the middle %6c of a sentence.\n", 'H');
-	printf("%*s", 6, "ALX SchoolProject !\n");
-	_printf("%*s", 6, "ALX SchoolProject !\n");
+	printf("%*s", 6, "ALXCOHORT14 School !\n");
+	_printf("%*s", 6, "ALXCOHORT14 School !\n");
 	printf("%*d\n", 6, 102498402);
 	_printf("%*d\n", 6, 102498402);
 /*	printf("character to %%s test\n");

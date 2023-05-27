@@ -70,12 +70,7 @@ int number = 19;
 _printf("%b", number);
 This should get us the binary number output:
 
-10011
-Testing
-The tests folder includes a mains.c file which will run a series of pairs of printf statements on many different combinations of specifiers, flag and options using both this version of print and stdlib printf, and output this to stdout. To run these tests, compile the entire project then run the resulting executable:
 
-gcc -o printftest *.c tests/mains.c
-./printftest
 
 Authors
 Aishat Peregrino-Brimah
